@@ -1,0 +1,112 @@
+package com.revenuecat.purchases.ui.revenuecatui.icons;
+
+import ae.r;
+import l1.h1;
+import l1.j0;
+import l1.u1;
+import l1.v1;
+import l1.w1;
+import p1.d;
+import p1.f;
+import p1.o;
+import w2.h;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class CurrencyExchangeKt {
+    private static d _Currency_exchange;
+
+    public static final d getCurrencyExchange() {
+        d dVar = _Currency_exchange;
+        if (dVar != null) {
+            r.c(dVar);
+            return dVar;
+        }
+        float f10 = 24;
+        d.a aVar = new d.a("CurrencyExchange", h.m(f10), h.m(f10), 960.0f, 960.0f, 0L, 0, false, 224, null);
+        u1 u1Var = new u1(j0.f14524b.a(), null);
+        int iA = v1.f14620a.a();
+        int iB = w1.f14633a.b();
+        int iB2 = h1.f14510a.b();
+        f fVar = new f();
+        fVar.f(480.0f, 920.0f);
+        fVar.h(-112.0f, 0.0f, -206.0f, -51.0f);
+        fVar.i(120.0f, 733.0f);
+        fVar.k(107.0f);
+        fVar.c(40.0f);
+        fVar.k(-240.0f);
+        fVar.d(240.0f);
+        fVar.k(80.0f);
+        fVar.d(-99.0f);
+        fVar.h(48.0f, 72.0f, 126.5f, 116.0f);
+        fVar.i(480.0f, 840.0f);
+        fVar.h(75.0f, 0.0f, 140.5f, -28.5f);
+        fVar.j(114.0f, -77.0f);
+        fVar.j(77.0f, -114.0f);
+        fVar.i(840.0f, 480.0f);
+        fVar.d(80.0f);
+        fVar.h(0.0f, 91.0f, -34.5f, 171.0f);
+        fVar.i(791.0f, 791.0f);
+        fVar.i(651.0f, 885.5f);
+        fVar.i(480.0f, 920.0f);
+        fVar.g(-36.0f, -160.0f);
+        fVar.k(-52.0f);
+        fVar.h(-47.0f, -11.0f, -76.5f, -40.5f);
+        fVar.i(324.0f, 590.0f);
+        fVar.e(66.0f, -26.0f);
+        fVar.h(12.0f, 41.0f, 37.5f, 61.5f);
+        fVar.i(486.0f, 646.0f);
+        fVar.j(56.5f, -15.5f);
+        fVar.i(566.0f, 582.0f);
+        fVar.h(0.0f, -29.0f, -24.5f, -47.0f);
+        fVar.i(454.0f, 494.0f);
+        fVar.h(-59.0f, -21.0f, -86.5f, -50.0f);
+        fVar.i(340.0f, 368.0f);
+        fVar.h(0.0f, -41.0f, 28.5f, -74.5f);
+        fVar.i(446.0f, 250.0f);
+        fVar.k(-50.0f);
+        fVar.d(70.0f);
+        fVar.k(50.0f);
+        fVar.h(36.0f, 3.0f, 65.5f, 29.0f);
+        fVar.j(40.5f, 61.0f);
+        fVar.e(-64.0f, 26.0f);
+        fVar.h(-8.0f, -23.0f, -26.0f, -38.5f);
+        fVar.i(482.0f, 312.0f);
+        fVar.h(-35.0f, 0.0f, -53.5f, 15.0f);
+        fVar.i(410.0f, 368.0f);
+        fVar.j(23.0f, 41.0f);
+        fVar.j(83.0f, 35.0f);
+        fVar.h(72.0f, 26.0f, 96.0f, 61.0f);
+        fVar.j(24.0f, 77.0f);
+        fVar.h(0.0f, 29.0f, -10.0f, 51.0f);
+        fVar.j(-26.5f, 37.5f);
+        fVar.j(-38.5f, 25.0f);
+        fVar.j(-47.0f, 14.5f);
+        fVar.k(50.0f);
+        fVar.a();
+        fVar.f(40.0f, 480.0f);
+        fVar.h(0.0f, -91.0f, 34.5f, -171.0f);
+        fVar.i(169.0f, 169.0f);
+        fVar.j(140.0f, -94.5f);
+        fVar.i(480.0f, 40.0f);
+        fVar.h(112.0f, 0.0f, 206.0f, 51.0f);
+        fVar.j(154.0f, 136.0f);
+        fVar.k(-107.0f);
+        fVar.d(80.0f);
+        fVar.k(240.0f);
+        fVar.c(680.0f);
+        fVar.k(-80.0f);
+        fVar.d(99.0f);
+        fVar.h(-48.0f, -72.0f, -126.5f, -116.0f);
+        fVar.i(480.0f, 120.0f);
+        fVar.h(-75.0f, 0.0f, -140.5f, 28.5f);
+        fVar.j(-114.0f, 77.0f);
+        fVar.j(-77.0f, 114.0f);
+        fVar.i(120.0f, 480.0f);
+        fVar.a();
+        aVar.c(fVar.b(), (14336 & 2) != 0 ? o.b() : iB2, (14336 & 4) != 0 ? "" : "", (14336 & 8) != 0 ? null : u1Var, (14336 & 16) != 0 ? 1.0f : 1.0f, (14336 & 32) == 0 ? null : null, (14336 & 64) != 0 ? 1.0f : 1.0f, (14336 & 128) != 0 ? 0.0f : 1.0f, (14336 & 256) != 0 ? o.c() : iA, (14336 & 512) != 0 ? o.d() : iB, (14336 & 1024) != 0 ? 4.0f : 1.0f, (14336 & 2048) != 0 ? 0.0f : 0.0f, (14336 & 4096) == 0 ? 0.0f : 1.0f, (14336 & 8192) == 0 ? 0.0f : 0.0f);
+        d dVarF = aVar.f();
+        _Currency_exchange = dVarF;
+        r.c(dVarF);
+        return dVarF;
+    }
+}

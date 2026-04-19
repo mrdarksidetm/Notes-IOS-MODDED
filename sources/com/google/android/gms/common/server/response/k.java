@@ -1,0 +1,35 @@
+package com.google.android.gms.common.server.response;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class k implements Parcelable.Creator {
+    @Override // android.os.Parcelable.Creator
+    public final /* bridge */ /* synthetic */ Object createFromParcel(Parcel parcel) {
+        int iK = x8.b.K(parcel);
+        Parcel parcelM = null;
+        int iD = 0;
+        h hVar = null;
+        while (parcel.dataPosition() < iK) {
+            int iB = x8.b.B(parcel);
+            int iV = x8.b.v(iB);
+            if (iV == 1) {
+                iD = x8.b.D(parcel, iB);
+            } else if (iV == 2) {
+                parcelM = x8.b.m(parcel, iB);
+            } else if (iV != 3) {
+                x8.b.J(parcel, iB);
+            } else {
+                hVar = (h) x8.b.o(parcel, iB, h.CREATOR);
+            }
+        }
+        x8.b.u(parcel, iK);
+        return new c(iD, parcelM, hVar);
+    }
+
+    @Override // android.os.Parcelable.Creator
+    public final /* synthetic */ Object[] newArray(int i10) {
+        return new c[i10];
+    }
+}

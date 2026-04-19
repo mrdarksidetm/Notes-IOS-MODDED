@@ -1,45 +1,44 @@
-# Miscellaneous
+*.apk
+*.apks
+*.idsig
 *.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+*.bin
+*.aligned
+*.signed
+apks_extracted/
+base_decompiled/
+decompiled_*/
+extracted/
+final_delivery/
+final_nuclear_session/
+final_session_delivery/
+final_signed_set/
+fixed_splits/
+inspect_final/
+manifest_bin/
+merged_replica/
+new_dex/
+no_talsec_split/
+original_smali/
+patched_dex_decompiled/
+session_signed/
+Splits/
+standalone_source/
+resources/
+build/
 .dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+.idea/
+.vscode/
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Ignore all sources but keep the modded ones
+sources/*
+!sources/com/
+!sources/r6/
+sources/com/*
+!sources/com/pairip/
+sources/com/pairip/*
+!sources/com/pairip/licensecheck/
+sources/com/pairip/licensecheck/*
+!sources/com/pairip/licensecheck/LicenseClient.java
+sources/r6/*
+!sources/r6/d.java

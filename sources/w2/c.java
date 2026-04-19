@@ -1,0 +1,72 @@
+package w2;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class c {
+    public static final long a(int i10, int i11, int i12, int i13) {
+        if (!(i11 >= i10)) {
+            throw new IllegalArgumentException(("maxWidth(" + i11 + ") must be >= than minWidth(" + i10 + ')').toString());
+        }
+        if (!(i13 >= i12)) {
+            throw new IllegalArgumentException(("maxHeight(" + i13 + ") must be >= than minHeight(" + i12 + ')').toString());
+        }
+        if (i10 >= 0 && i12 >= 0) {
+            return b.f22395b.b(i10, i11, i12, i13);
+        }
+        throw new IllegalArgumentException(("minWidth(" + i10 + ") and minHeight(" + i12 + ") must be >= 0").toString());
+    }
+
+    public static /* synthetic */ long b(int i10, int i11, int i12, int i13, int i14, Object obj) {
+        if ((i14 & 1) != 0) {
+            i10 = 0;
+        }
+        if ((i14 & 2) != 0) {
+            i11 = Integer.MAX_VALUE;
+        }
+        if ((i14 & 4) != 0) {
+            i12 = 0;
+        }
+        if ((i14 & 8) != 0) {
+            i13 = Integer.MAX_VALUE;
+        }
+        return a(i10, i11, i12, i13);
+    }
+
+    private static final int c(int i10, int i11) {
+        return i10 == Integer.MAX_VALUE ? i10 : ge.o.d(i10 + i11, 0);
+    }
+
+    public static final long d(long j10, long j11) {
+        return q.a(ge.o.l(p.g(j11), b.p(j10), b.n(j10)), ge.o.l(p.f(j11), b.o(j10), b.m(j10)));
+    }
+
+    public static final long e(long j10, long j11) {
+        return a(ge.o.l(b.p(j11), b.p(j10), b.n(j10)), ge.o.l(b.n(j11), b.p(j10), b.n(j10)), ge.o.l(b.o(j11), b.o(j10), b.m(j10)), ge.o.l(b.m(j11), b.o(j10), b.m(j10)));
+    }
+
+    public static final int f(long j10, int i10) {
+        return ge.o.l(i10, b.o(j10), b.m(j10));
+    }
+
+    public static final int g(long j10, int i10) {
+        return ge.o.l(i10, b.p(j10), b.n(j10));
+    }
+
+    public static final boolean h(long j10, long j11) {
+        int iP = b.p(j10);
+        int iN = b.n(j10);
+        int iG = p.g(j11);
+        if (iP <= iG && iG <= iN) {
+            int iO = b.o(j10);
+            int iM = b.m(j10);
+            int iF = p.f(j11);
+            if (iO <= iF && iF <= iM) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static final long i(long j10, int i10, int i11) {
+        return a(ge.o.d(b.p(j10) + i10, 0), c(b.n(j10), i10), ge.o.d(b.o(j10) + i11, 0), c(b.m(j10), i11));
+    }
+}
